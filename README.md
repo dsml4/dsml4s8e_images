@@ -1,2 +1,3 @@
 # dsml4s8e_images
-images for data scince
+
+Images for the machine learning system development life cycle.  
