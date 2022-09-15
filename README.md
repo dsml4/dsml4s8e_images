@@ -9,7 +9,7 @@ jds - base image from https://jupyter-docker-stacks.readthedocs.io/en/latest/
 powershell commands:
 ```
 cd jupyter-docker-stacks
-dockre build -t jds_dsml4s8e .  
+docker build -t jds_dsml4s8e .  
 docker create --name jds_dsml4s8e -p 8899:8888 -v C:\Users\$env:UserName\education\work:/home/jovyan/work jds_dsml4s8e 
 ```
 
