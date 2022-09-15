@@ -10,7 +10,7 @@ powershell commands:
 ```
 cd jupyter-docker-stacks
 docker build -t jds_dsml4s8e .  
-docker create --name jds_dsml4s8e -p 8899:8888 -v C:\Users\$env:UserName\education\work:/home/jovyan/work jds_dsml4s8e 
+docker create --name jds_dsml4s8e -p 8899:8888 -v C:\Users\$env:UserName\education\work:/home/jovyan/work -v C:\Users\$env:UserName\education\data:/home/jovyan/data jds_dsml4s8e 
 ```
 
 Docker in VS Coded
